@@ -1,0 +1,175 @@
+.comments-app-bg-container {
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.comment-app-header {
+  border-bottom: 1px solid #94a3b8;
+}
+
+.comments-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 36px;
+}
+
+.comments-image-container {
+  width: 100%;
+  text-align: center;
+}
+
+.comments-image {
+  height: 192px;
+  width: 80%;
+}
+
+.comments-description {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.form-input {
+  width: 100%;
+}
+
+.text-input {
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 12px;
+  padding: 12px;
+  outline: none;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+}
+
+.text-area {
+  background-color: transparent;
+  height: 100px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 14px;
+  outline: none;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 14px;
+}
+
+.add-comment-button {
+  background-color: #0284c7;
+  color: #dee0e3;
+  font-family: 'Roboto';
+  font-size: 14px;
+  height: 40px;
+  width: 110px;
+  border-width: 0px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .comments-heading {
+    font-size: 42px;
+  }
+
+  .comments-image {
+    height: 200px;
+    width: 60%;
+  }
+
+  .comments-description {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .comments-app-bg-container {
+    padding: 30px;
+  }
+
+  .comment-app-header {
+    height: 26vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .comments-image-container {
+    width: 100%;
+    order: 1;
+  }
+
+  .comments-image {
+    height: 260px;
+  }
+
+  .comments-heading {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .comments-app-bg-container {
+    padding: 30px;
+  }
+
+  .comment-app-header {
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 60px;
+  }
+
+  .comments-image-container {
+    width: 60%;
+    order: 1;
+  }
+
+  .form-input {
+    width: 100%;
+    margin-right: 48px;
+  }
+
+  .comments-description {
+    font-size: 20px;
+  }
+
+  .comments-image {
+    height: 320px;
+    width: 400px;
+  }
+
+  .comments-heading {
+    font-size: 60px;
+    margin-bottom: 100px;
+  }
+}
+
+.comments-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+span {
+  background-color: #0284c7;
+  color: #dee0e3;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 14px;
+}
